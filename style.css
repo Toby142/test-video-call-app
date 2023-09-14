@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+/* import the discord font */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
 body {
-  font-family: 'Syne Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
+  background: #36393f;
   margin: 80px 10px;
 }
 
@@ -14,6 +16,11 @@ video {
   height: 30vw;
   margin: 2rem;
   background: #2c3e50;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 400px;
+  /* make the video fit */
+  object-fit: cover;
 }
 
 .videos {
